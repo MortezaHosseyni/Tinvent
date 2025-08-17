@@ -16,7 +16,6 @@ namespace Tinvent.Domain.Entities
         public string Subdomain { get; private set; }
 
         [Required]
-        [Column(TypeName = "nvarchar(50)")]
         public TenantStatus Status { get; private set; }
 
         // Foreign Key

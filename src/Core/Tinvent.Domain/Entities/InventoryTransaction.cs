@@ -8,7 +8,6 @@ namespace Tinvent.Domain.Entities
     public class InventoryTransaction : BaseEntity
     {
         [Required]
-        [Column(TypeName = "nvarchar(50)")]
         public InventoryTransactionType TransactionType { get; private set; }
 
         [Required]

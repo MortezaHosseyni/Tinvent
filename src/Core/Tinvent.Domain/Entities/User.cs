@@ -27,7 +27,6 @@ namespace Tinvent.Domain.Entities
         public string PasswordHash { get; private set; }
 
         [Required]
-        [Column(TypeName = "nvarchar(50)")]
         public UserRole Role { get; private set; }
 
         [Required]

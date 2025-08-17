@@ -12,7 +12,6 @@ namespace Tinvent.Domain.Entities
         public string TransferNumber { get; private set; }
 
         [Required]
-        [Column(TypeName = "nvarchar(50)")]
         public StockTransferStatus Status { get; private set; }
 
         [MaxLength(1000)]

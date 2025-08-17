@@ -12,7 +12,6 @@ namespace Tinvent.Domain.Entities
         public string OrderNumber { get; private set; }
 
         [Required]
-        [Column(TypeName = "nvarchar(50)")]
         public PurchaseOrderStatus Status { get; private set; }
 
         [Required]

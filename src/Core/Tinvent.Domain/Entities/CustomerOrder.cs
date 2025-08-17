@@ -12,7 +12,6 @@ namespace Tinvent.Domain.Entities
         public string OrderNumber { get; private set; }
 
         [Required]
-        [Column(TypeName = "nvarchar(50)")]
         public OrderStatus Status { get; private set; }
 
         [Required]
@@ -33,7 +32,6 @@ namespace Tinvent.Domain.Entities
         public string ShippingAddress { get; private set; }
 
         [Required]
-        [Column(TypeName = "nvarchar(50)")]
         public PaymentStatus PaymentStatus { get; private set; }
 
         [Required]

@@ -27,7 +27,6 @@ namespace Tinvent.Domain.Entities
         public string Address { get; private set; }
 
         [Required]
-        [Column(TypeName = "nvarchar(50)")]
         public SupplierStatus Status { get; private set; }
 
         // Foreign Key

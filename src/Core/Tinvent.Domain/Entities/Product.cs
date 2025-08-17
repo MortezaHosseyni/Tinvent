@@ -35,7 +35,6 @@ namespace Tinvent.Domain.Entities
         public string Dimensions { get; private set; }
 
         [Required]
-        [Column(TypeName = "nvarchar(50)")]
         public ProductStatus Status { get; private set; }
 
         // Foreign Keys
